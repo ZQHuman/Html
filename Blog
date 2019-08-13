@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+<head><title>DEKU's Blog</title></head>
+
+<body background="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1565668566245&di=714c10b898ab259a8123aefd78cad7ed&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F139bcc8a0cd603d08797e7431c65464e709c4163.png">
+
+<h1 align="center">My Blog</h1>
+
+<br>
+
+<table border="1">
+  <tr>
+    <th>
+    <form action="/example/html5/demo_form.asp" method="get" autocomplete="on">
+    访问者，请问您怎么称呼？<input type="text" name="fname" />
+    <input type="submit" /><br />
+    请问您的联系方式（邮箱）？<input type="email" name="email" autocomplete="off" />
+    <input type="submit" />
+</form>
+    </th>
+  </tr>
+</table>
+
+<h4>こんにちわ、访问者！欢迎来到窝的博客。</h4>
+
+<h2>第一話</h2>
+
+<h3><font size="5" face="arial" color="MediumVioletRed ">骗分大法！C++随机数的生成</font></h3>
+
+<p>
+&nbsp &nbsp #include "iostream"
+
+<br>
+
+&nbsp &nbsp #include "ctime"
+
+<br>
+
+&nbsp &nbsp #include "cstdlib"
+
+<br>
+
+&nbsp &nbsp #include "cstdio"
+
+<br>
+
+&nbsp &nbsp using namespace std;
+
+<br>
+
+&nbsp &nbsp int main(){
+
+<br>
+
+&nbsp &nbsp &nbsp &nbsp srand(time(NULL));
+
+<br>
+
+&nbsp &nbsp &nbsp &nbsp printf("%d\n",rand()%10+1);
+
+<br>
+
+&nbsp &nbsp &nbsp &nbsp return 0;
+
+<br>
+
+&nbsp &nbsp }
+</p>
+
+</body>
+
+</html>
